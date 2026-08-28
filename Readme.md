@@ -95,32 +95,6 @@ Both datasets are connected using the **client_num** column.
 
 ---
 
-# 🔄 Project Workflow
-
-```text
-Raw CSV Files
-      │
-      ▼
-Python Data Cleaning & Validation
-      │
-      ▼
-Cleaned CSV Files
-      │
-      ▼
-PostgreSQL Database
-      │
-      ▼
-SQL Business Analysis
-      │
-      ▼
-Power BI Dashboard
-      │
-      ▼
-Business Insights
-
-
----
-
 # 🐍 Python: Combine Dataset, Data Cleaning & Validation
 
 The raw dataset was provided in multiple CSV files. Each logical dataset was split into two parts:
