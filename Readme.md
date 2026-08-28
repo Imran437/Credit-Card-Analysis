@@ -93,6 +93,31 @@ The project uses two datasets.
 
 Both datasets are connected using the **client_num** column.
 
+# 🔄 Project Workflow
+
+```text
+Raw CSV Files
+      │
+      ▼
+Python Data Cleaning & Validation
+      │
+      ▼
+Cleaned CSV Files
+      │
+      ▼
+PostgreSQL Database
+      │
+      ▼
+SQL Business Analysis
+      │
+      ▼
+Power BI Dashboard
+      │
+      ▼
+Business Insights
+
+
+
 ---
 
 # 🐍 Python: Combine Dataset, Data Cleaning & Validation
@@ -286,11 +311,11 @@ The dashboard includes interactive slicers for:
 
 ## Transaction Report
 
-![Transaction Report](05_Images/credit_card_dashboard-1)
+![Transaction Report](05_Images/credit_card_dashboard-1.png)
 
 ## Customer Report
 
-![Customer Report](05_Images/credit_card_dashboard-2)
+![Customer Report](05_Images/credit_card_dashboard-2.png)
 
 
 
